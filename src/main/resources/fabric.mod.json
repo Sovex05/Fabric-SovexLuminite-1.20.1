@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "sovexs-luminite",
+	"version": "${version}",
+	"name": "Sovex's Luminite",
+	"description": "This is a ore Mod made by Sovex!",
+	"authors": [
+		"Sovex!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/sovexs-luminite/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.sovex.luminite.SovexsLuminite"
+		],
+		"client": [
+			"net.sovex.luminite.SovexsLuminiteClient"
+		],
+		"fabric-datagen": [
+			"net.sovex.luminite.SovexsLuminiteDataGenerator"
+		]
+	},
+	"mixins": [
+		"sovexs-luminite.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
