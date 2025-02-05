@@ -13,11 +13,9 @@ import net.sovex.luminite.SovexsLuminite;
 
 public class ModItems {
 
-    public static final Item LUMINITE_SHARD = registerItem("luminite_shard", new Item(new FabricItemSettings()));
     public static final Item LUMINITE_CRYSTAL = registerItem("luminite_crystal", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(LUMINITE_SHARD);
         entries.add(LUMINITE_CRYSTAL);
     }
 

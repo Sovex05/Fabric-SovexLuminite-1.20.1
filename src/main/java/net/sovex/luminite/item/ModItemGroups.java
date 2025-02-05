@@ -15,7 +15,6 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.luminite"))
                     .icon(() -> new ItemStack(ModItems.LUMINITE_CRYSTAL)).entries((displayContext, entries) -> {
                         entries.add(ModItems.LUMINITE_CRYSTAL);
-                        entries.add(ModItems.LUMINITE_SHARD);
 
                     }).build());
 
