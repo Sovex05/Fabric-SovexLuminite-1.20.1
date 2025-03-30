@@ -1,5 +1,7 @@
 {
   "item.sovexs-luminite.luminite_crystal": "Luminite Crystal",
 
+  "block.sovexs-luminite.luminite_block": "Block of Luminite",
+
   "itemgroup.luminite": "Luminite Group"
 }

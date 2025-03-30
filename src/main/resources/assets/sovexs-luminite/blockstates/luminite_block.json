@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "sovexs-luminite:block/luminite_block"
+    }
+  }
+}

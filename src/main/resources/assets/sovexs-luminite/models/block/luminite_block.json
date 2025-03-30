@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sovexs-luminite:block/luminite_block"
+  }
+}

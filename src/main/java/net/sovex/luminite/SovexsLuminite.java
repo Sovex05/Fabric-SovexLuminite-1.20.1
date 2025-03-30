@@ -2,6 +2,7 @@ package net.sovex.luminite;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.sovex.luminite.block.ModBlocks;
 import net.sovex.luminite.item.ModItemGroups;
 import net.sovex.luminite.item.ModItems;
 import org.slf4j.Logger;
@@ -16,5 +17,6 @@ public class SovexsLuminite implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
